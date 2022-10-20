@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: restaurant-app
 spec:
   selector:
     matchLabels:
-      app: myapp
-  replicas: 2
+      app: restaurant-app
+  replicas: 3
   template:
     metadata:
       labels:
-        app: myapp
+        app: restaurant-app
     spec:
       containers:
-      - name: myapp
+      - name: restaurant-app
         image: samer955/myrestaurant:latest
         ports:
         - containerPort: 8080
