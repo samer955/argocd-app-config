@@ -1,2 +1,2 @@
 # argocd-app-config
-Setup ArgoCD file
+Setup for ArgoCD
