@@ -4,6 +4,6 @@ How to deploy and run the app as a network service with minikube/kubernetes Mani
 See application.yaml for the ArgoCD configuration.
 
 
-If using Windows or WSL2: minikube start --ports=127.0.0.1:port:port
+If using Windows or WSL2: minikube start --ports=127.0.0.1:port:port (where 'port' is the service port where you want to expose th application)
 
-App is exposed in localhost:port
+App is exposed to localhost:port or 127.0.0.1:port
