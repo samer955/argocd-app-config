@@ -15,7 +15,7 @@ user and password see: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
 `kubectl apply -f application.yaml` to deploy the application.
 
-`kubectl get ingress -A` to get the ingress address and port.
+`kubectl get ingress -n 'namespace_of_the_app'` to get the ingress address and port.
 
 `curl address:port` or in the browser to access the app.
 
