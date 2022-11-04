@@ -1,4 +1,4 @@
-# argocd test application deployment
+# Argocd test application deployment
 How to deploy and run the app as a network service with kubernetes Manifest, using ArgoCD to Continuous Delivery.
 
 See application.yaml for the ArgoCD configuration.
